@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Celeste">
+   </FileRef>
+   <FileRef
+      location = "group:Elektra">
+   </FileRef>
+   <FileRef
+      location = "group:Luna">
+   </FileRef>
+   <FileRef
+      location = "group:Lyra">
+   </FileRef>
+   <FileRef
+      location = "group:Nova">
+   </FileRef>
+   <FileRef
+      location = "group:Orion">
+   </FileRef>
+   <FileRef
+      location = "group:Phoenix">
+   </FileRef>
+   <FileRef
+      location = "group:Portia">
+   </FileRef>
+</Workspace>
