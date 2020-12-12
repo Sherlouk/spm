@@ -1,5 +1,7 @@
 # SPM
 
+![Test Results](https://github.com/Sherlouk/spm/workflows/.github/workflows/test.yml/badge.svg)
+
 An executable with a couple potentially helpful swift package manager commands.
 
 ## Commands

@@ -1,4 +1,5 @@
 on: push
+name: Test Script
 
 jobs:
   test:
