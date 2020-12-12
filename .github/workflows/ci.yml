@@ -28,7 +28,7 @@ jobs:
         run: swift build --configuration release
 
       - name: List Files
-        run: ls .build
+        run: ls .build/release
 
       - name: Upload Executable
         uses: actions/upload-artifact@v2
