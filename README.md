@@ -1,6 +1,6 @@
 # SPM
 
-![Test Results](https://github.com/Sherlouk/spm/workflows/.github/workflows/test.yml/badge.svg)
+![Test Script](https://github.com/Sherlouk/spm/workflows/Test%20Script/badge.svg)
 
 An executable with a couple potentially helpful swift package manager commands.
 
@@ -30,4 +30,4 @@ $ spm new MyPackage
 * Support GraphViz export type for graph command (--outputType <graphviz || nomnoml>)
 * Add --outputPath option to graph command to switch from current directory
 * Add --detailed flag which adds enhanced information to every node in graph. Including tools version, and platform target(s).
-* Add full test suite
+* Extract JUnit from CI test suite and upload using https://github.com/EnricoMi/publish-unit-test-result-action
