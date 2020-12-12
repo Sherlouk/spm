@@ -63,6 +63,9 @@ let package = Package(
             name: "GrapherTests",
             dependencies: [
                 "Grapher",
+            ],
+            exclude: [
+                "SampleProject"
             ]
         ),
         
