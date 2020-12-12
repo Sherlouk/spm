@@ -1,0 +1,35 @@
+on: push
+name: CI
+
+jobs:
+  test:
+    name: Test Executable
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Nomnoml
+        run: npm install -g nomnoml
+
+      - name: Run Tests
+        run: swift test
+  build:
+    name: Build Executable
+    runs-on: macos-latest
+    needs: test
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        
+      - name: Run Tests
+        run: swift build --configuration release
+
+      - name: Upload
+        uses: actions/upload-artifact@v2
+        with:
+          name: spm
+          path: .build/release/spm
+          if-no-files-found: error

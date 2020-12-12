@@ -1,6 +1,6 @@
 # SPM
 
-![Test Script](https://github.com/Sherlouk/spm/workflows/Test%20Script/badge.svg)
+![CI](https://github.com/Sherlouk/spm/workflows/CI/badge.svg)
 
 An executable with a couple potentially helpful swift package manager commands.
 
