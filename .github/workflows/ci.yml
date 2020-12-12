@@ -10,13 +10,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - uses: actions/cache@v2
-        with:
-          path: .build
-          key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}
-          restore-keys: |
-            ${{ runner.os }}-spm-
-
       - name: Install Nomnoml
         run: npm install -g nomnoml
 
@@ -31,15 +24,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - uses: actions/cache@v2
-        with:
-          path: .build
-          key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}
-          restore-keys: |
-            ${{ runner.os }}-spm-
-
       - name: Create Release Build
         run: swift build --configuration release
+
+      - name: List Files
+        run: ls .build
 
       - name: Upload Executable
         uses: actions/upload-artifact@v2
