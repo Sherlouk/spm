@@ -19,7 +19,9 @@ final class NomnomlTests: XCTestCase {
         ]
         
         XCTAssertEqual(NomnomlFormatter(relationships: relationships).generate(), """
-        #.remote: fill=pink
+        #.remote: fill=lightblue title=bold
+        #ranker: longest-path
+        #gravity: 1.5
         [<remote>One] -> [<local>Two]
         [<local>Two] -> [<local>Three]
         [<local>Three] -> [<remote>One]
@@ -32,7 +34,9 @@ final class NomnomlTests: XCTestCase {
         
         let exporter = NomnomlExport(
             contents: """
-            #.remote: fill=pink
+            #.remote: fill=lightblue title=bold
+            #ranker: longest-path
+            #gravity: 1.5
             [<remote>One] -> [<local>Two]
             [<local>Two] -> [<local>Three]
             [<local>Three] -> [<remote>One]
@@ -49,7 +53,7 @@ final class NomnomlTests: XCTestCase {
         
         XCTAssert(fileContents.contains("<svg "))
         XCTAssert(fileContents.contains(">One<"))
-        XCTAssert(fileContents.contains("#.remote: fill=pink"))
+        XCTAssert(fileContents.contains("#.remote: fill=lightblue title=bold"))
     }
     
 }

@@ -15,7 +15,9 @@ struct NomnomlFormatter {
         }
         
         return """
-        #.remote: fill=pink
+        #.remote: fill=lightblue title=bold
+        #ranker: longest-path
+        #gravity: 1.5
         \(relationshipStrings.joined(separator: "\n"))
         """
     }

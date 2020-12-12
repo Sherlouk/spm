@@ -1,0 +1,60 @@
+<svg version="1.1" baseProfile="full" width="534" height="270" viewbox="0 0 534 270" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="font:bold normal 12pt Helvetica, Helvetica, sans-serif;;stroke-linejoin:round;stroke-linecap:round">
+  <desc >#.remote: fill=pink
+[&lt;local&gt;Luna] -&gt; [&lt;local&gt;Celeste]
+[&lt;local&gt;Luna] -&gt; [&lt;local&gt;Elektra]
+[&lt;local&gt;Elektra] -&gt; [&lt;local&gt;Nova]
+[&lt;local&gt;Elektra] -&gt; [&lt;local&gt;Orion]
+[&lt;local&gt;Orion] -&gt; [&lt;local&gt;Celeste]
+[&lt;local&gt;Orion] -&gt; [&lt;remote&gt;SnapshotTesting]
+[&lt;local&gt;Luna] -&gt; [&lt;local&gt;Lyra]
+[&lt;local&gt;Luna] -&gt; [&lt;local&gt;Nova]
+[&lt;local&gt;Luna] -&gt; [&lt;local&gt;Orion]
+[&lt;local&gt;Orion] -&gt; [&lt;local&gt;Celeste]
+[&lt;local&gt;Orion] -&gt; [&lt;remote&gt;SnapshotTesting]
+[&lt;local&gt;Luna] -&gt; [&lt;local&gt;Phoenix]
+[&lt;local&gt;Phoenix] -&gt; [&lt;remote&gt;SnapshotTesting]
+[&lt;local&gt;Luna] -&gt; [&lt;local&gt;Portia]</desc>
+  <rect x="0" y="0" height="270" width="534" style="stroke:none; fill:transparent;"></rect>
+  <path d="M247.8 33.1 L31.5 64.5 L31.5 100 L31.5 100 L31.5 135.5 L31.5 135.5 L31.5 171 L31.5 171 L31.5 206.5 L31.5 206.5 L42.8 226.5 L42.8 226.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M31.6 217.5 L39.5 220.7 L40.9 212.3 L42.8 226.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M247.8 35 L109.3 64.5 L109.3 84.5 L109.3 84.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M103.9 71.2 L109.3 77.8 L114.6 71.2 L109.3 84.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M100.5 115.5 L89.3 135.5 L164 161.2 L164 161.2 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M149.7 161.9 L157.7 159 L153.1 151.8 L164 161.2 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M136.9 115.5 L172.5 135.5 L275.3 163.1 L275.3 163.1 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M261 164.8 L268.8 161.4 L263.8 154.5 L275.3 163.1 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M275.3 177.9 L152.5 206.5 L89.5 228.6 L89.5 228.6 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M100.3 219.2 L95.8 226.4 L103.8 229.3 L89.5 228.6 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M322.2 186.5 L344.8 206.5 L375.6 226.5 L375.6 226.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M361.5 223.7 L370 222.9 L367.3 214.8 L375.6 226.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M247.8 44.2 L210.3 64.5 L210.3 84.5 L210.3 84.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M204.9 71.2 L210.3 77.8 L215.6 71.2 L210.3 84.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M275.8 44.5 L275.8 64.5 L275.8 100 L275.8 100 L275.8 135.5 L275.8 135.5 L221 158.8 L221 158.8 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M231.2 148.7 L227.1 156.2 L235.4 158.5 L221 158.8 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M303.8 43.4 L344.8 64.5 L344.8 100 L344.8 100 L344.8 135.5 L344.8 135.5 L322.2 155.5 L322.2 155.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M328.6 142.7 L327.2 151.1 L335.7 150.6 L322.2 155.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M303.8 35.9 L419.5 64.5 L419.5 100 L419.5 100 L419.5 135.5 L419.5 135.5 L419.5 155.5 L419.5 155.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M414.2 142.2 L419.5 148.8 L424.8 142.2 L419.5 155.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M419.5 186.5 L419.5 206.5 L408.2 226.5 L408.2 226.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M410.1 212.3 L411.5 220.7 L419.4 217.5 L408.2 226.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M303.8 33.6 L490.5 64.5 L490.5 84.5 L490.5 84.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M485.2 71.2 L490.5 77.8 L495.8 71.2 L490.5 84.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <rect x="247.5" y="13.5" height="31" width="56" data-name="Luna" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="275.5" y="35" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="Luna">Luna</text>
+  <rect x="13.5" y="226.5" height="31" width="76" data-name="Celeste" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="51.5" y="248" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="Celeste">Celeste</text>
+  <rect x="73.5" y="84.5" height="31" width="71" data-name="Elektra" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="109" y="106" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="Elektra">Elektra</text>
+  <rect x="164.5" y="155.5" height="31" width="57" data-name="Nova" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="193" y="177" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="Nova">Nova</text>
+  <rect x="275.5" y="155.5" height="31" width="59" data-name="Orion" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="305" y="177" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="Orion">Orion</text>
+  <rect x="325.5" y="226.5" height="31" width="149" data-name="SnapshotTesting" style="stroke:#33322E;fill:pink;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="400" y="248" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="SnapshotTesting">SnapshotTesting</text>
+  <rect x="184.5" y="84.5" height="31" width="51" data-name="Lyra" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="210" y="106" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="Lyra">Lyra</text>
+  <rect x="379.5" y="155.5" height="31" width="80" data-name="Phoenix" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="419.5" y="177" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="Phoenix">Phoenix</text>
+  <rect x="459.5" y="84.5" height="31" width="62" data-name="Portia" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="490.5" y="106" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="Portia">Portia</text>
+</svg>
