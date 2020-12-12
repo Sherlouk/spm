@@ -33,6 +33,5 @@ jobs:
       - name: Upload Executable
         uses: actions/upload-artifact@v2
         with:
-          name: spm
-          path: /.build/release/spm
+          path: .build/release/spm
           if-no-files-found: error
