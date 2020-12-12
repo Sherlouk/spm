@@ -19,7 +19,13 @@ struct NomnomlExport {
         try temporaryFolder.createFile(named: fileName, contents: Data(contents.utf8))
         
         // Generate the SVG
-        try shellOut(to: .exportNomnoml(fileName: fileName, exportPath: exportName), at: temporaryFolder.path)
+        let process = Process()
+        
+        process.environment = [
+            "PATH": "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+        ]
+        
+        try shellOut(to: .exportNomnoml(fileName: fileName, exportPath: exportName), at: temporaryFolder.path, process: process)
         
         // Move the file
         try? outputPath.file(named: exportName).delete() // override any existing file

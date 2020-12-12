@@ -1,0 +1,37 @@
+<svg version="1.1" baseProfile="full" width="435.5" height="199" viewbox="0 0 435.5 199" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="font:bold normal 12pt Helvetica, Helvetica, sans-serif;;stroke-linejoin:round;stroke-linecap:round">
+  <desc >#.remote: fill=pink
+[SPMBridge] -&gt; [ModB]
+[SPMBridge] -&gt; [ModC]
+[SPMBridge] -&gt; [ModD]
+[SPMBridge] -&gt; [ModE]
+[ModB] -&gt; [ModA]
+[ModC] -&gt; [&lt;remote&gt;SnapshotTesting]
+</desc>
+  <rect x="0" y="0" height="199" width="435.5" style="stroke:none; fill:transparent;"></rect>
+  <path d="M188.5 38.3 L44 64.5 L44 84.5 L44 84.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M38.7 71.2 L44 77.8 L49.3 71.2 L44 84.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M217.7 44.5 L189 64.5 L189 84.5 L189 84.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M183.7 71.2 L189 77.8 L194.3 71.2 L189 84.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M262.3 44.5 L291 64.5 L291 84.5 L291 84.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M285.7 71.2 L291 77.8 L296.3 71.2 L291 84.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M291.5 41 L392.5 64.5 L392.5 84.5 L392.5 84.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M387.2 71.2 L392.5 77.8 L397.8 71.2 L392.5 84.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M44 115.5 L44 135.5 L44 155.5 L44 155.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M38.7 142.2 L44 148.8 L49.3 142.2 L44 155.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M189 115.5 L189 135.5 L189 155.5 L189 155.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M183.7 142.2 L189 148.8 L194.3 142.2 L189 155.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <rect x="188.5" y="13.5" height="31" width="103" data-name="SPMBridge" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="240" y="35" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="SPMBridge">SPMBridge</text>
+  <rect x="13.5" y="84.5" height="31" width="61" data-name="ModB" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="44" y="106" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="ModB">ModB</text>
+  <rect x="158.5" y="84.5" height="31" width="62" data-name="ModC" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="189.5" y="106" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="ModC">ModC</text>
+  <rect x="260.5" y="84.5" height="31" width="62" data-name="ModD" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="291.5" y="106" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="ModD">ModD</text>
+  <rect x="362.5" y="84.5" height="31" width="61" data-name="ModE" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="393" y="106" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="ModE">ModE</text>
+  <rect x="13.5" y="155.5" height="31" width="61" data-name="ModA" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="44" y="177" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="ModA">ModA</text>
+  <rect x="114.5" y="155.5" height="31" width="149" data-name="SnapshotTesting" style="stroke:#33322E;fill:pink;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="189" y="177" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="SnapshotTesting">SnapshotTesting</text>
+</svg>

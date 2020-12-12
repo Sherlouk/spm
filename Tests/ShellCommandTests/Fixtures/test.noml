@@ -1,0 +1,7 @@
+#.remote: fill=pink
+[SPMBridge] -> [ModB]
+[SPMBridge] -> [ModC]
+[SPMBridge] -> [ModD]
+[SPMBridge] -> [ModE]
+[ModB] -> [ModA]
+[ModC] -> [<remote>SnapshotTesting]

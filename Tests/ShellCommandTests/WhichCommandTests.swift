@@ -2,9 +2,9 @@ import XCTest
 import ShellOut
 @testable import ShellCommands
 
-final class WhichTests: XCTestCase {
+final class WhichCommandTests: XCTestCase {
     
-    func testWhich() throws {
+    func testLocateExecutable() throws {
         do {
             let output = try shellOut(to: .locateExecutable(named: "cat"))
             XCTAssertEqual(output, "/bin/cat")
@@ -24,8 +24,19 @@ final class WhichTests: XCTestCase {
             // All good.
         }
         
+        
+    }
+    
+    func testCommandExists() throws {
         do {
             try shellCommandExists("nomnoml")
+        }
+        
+        do {
+            try shellCommandExists("random-command")
+            XCTFail("Command should not have existed")
+        } catch {
+            // All good.
         }
     }
     

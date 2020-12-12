@@ -46,6 +46,9 @@ let package = Package(
             name: "ShellCommandTests",
             dependencies: [
                 "ShellCommands",
+            ],
+            exclude: [
+                "Fixtures"
             ]
         ),
         
