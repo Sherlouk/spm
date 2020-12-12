@@ -27,11 +27,8 @@ jobs:
       - name: Create Release Build
         run: swift build --configuration release
 
-      - name: List Files
-        run: ls .build/release
-
       - name: Upload Executable
         uses: actions/upload-artifact@v2
         with:
-          path: ../.build/release/spm
+          path: .build/x86_64-apple-macosx/release/spm
           if-no-files-found: error
